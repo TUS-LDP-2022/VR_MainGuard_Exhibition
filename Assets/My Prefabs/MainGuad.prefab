@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7294046481741834561}
   m_Layer: 0
-  m_Name: MAinGuardScene
+  m_Name: MainGuad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
