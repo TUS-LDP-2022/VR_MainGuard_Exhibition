@@ -10,26 +10,28 @@ public class EnterBuilding : MonoBehaviour
     public GameObject Player;
     public GameObject DesiredPosition = null;
     public GameObject TP = null;
+    public GameObject blackout;
+    public Animator Animation;
 
+    private void Start()
+    {
+        blackout.SetActive(false);
+    }
     public void MovePlayer()
     {
         StartCoroutine(MoveP());
+        blackout.SetActive(true);
+        Animation.SetBool("start", true);
     }
 
     IEnumerator MoveP()
     {
-        //Print the time of when the function is first called.
-        Debug.Log("Started Coroutine at timestamp : " + Time.time);
-
-        //yield on a new YieldInstruction that waits for 5 seconds.
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
         Player.transform.position = DesiredPosition.transform.position;
         Player.transform.rotation = DesiredPosition.transform.rotation;
-
-        //After we have waited 5 seconds print the time again.
-        Debug.Log("Finished Coroutine at timestamp : " + Time.time);
+        Animation.SetBool("start", false);
     }
-
+    
     public void TurnOnTP()
     {
         TP.SetActive(true);
