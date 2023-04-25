@@ -160,6 +160,13 @@ MonoBehaviour:
   head: {fileID: 2556593236901175649}
   leftHand: {fileID: 9079421289651407806}
   rightHand: {fileID: 6429093483909954074}
+  faces:
+  - {fileID: 2100000, guid: db1d8d2892d47014cb9134382a042d38, type: 2}
+  - {fileID: 2100000, guid: 2b6be34cbd0481542949b23e9a9b88f3, type: 2}
+  - {fileID: 2100000, guid: 9f1868c6e49e76d4cab56513caa5448d, type: 2}
+  headMat: {fileID: 4772360171344739299}
+  rHandMat: {fileID: 6527402198651188956}
+  lHandMat: {fileID: 8661598453824547289}
 --- !u!114 &4758394051652252910
 MonoBehaviour:
   m_ObjectHideFlags: 0

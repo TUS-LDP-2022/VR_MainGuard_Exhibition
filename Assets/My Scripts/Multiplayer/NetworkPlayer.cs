@@ -18,6 +18,12 @@ public class NetworkPlayer : MonoBehaviour
     Transform rightHandRig;
 
 
+    public List<Material> faces = new List<Material>();
+
+    public GameObject headMat;
+    public GameObject rHandMat;
+    public GameObject lHandMat;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +41,12 @@ public class NetworkPlayer : MonoBehaviour
                 item.enabled = false;
             }
         }
-        
+
+        int randomIndex = Random.Range(0, faces.Count);
+        Material randomface = faces[randomIndex];
+        headMat.GetComponent<Renderer>().material = randomface;
+        rHandMat.GetComponent<Renderer>().material = randomface;
+        lHandMat.GetComponent<Renderer>().material = randomface;
     }
 
     // Update is called once per frame

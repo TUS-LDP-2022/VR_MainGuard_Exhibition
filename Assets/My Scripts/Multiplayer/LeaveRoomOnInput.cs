@@ -25,6 +25,7 @@ public class LeaveRoomOnInput : MonoBehaviour
     public void ExitRoom()
     {
         PhotonNetwork.Disconnect();
+        
         //PhotonNetwork.LoadLevel(0);
     }
 }
