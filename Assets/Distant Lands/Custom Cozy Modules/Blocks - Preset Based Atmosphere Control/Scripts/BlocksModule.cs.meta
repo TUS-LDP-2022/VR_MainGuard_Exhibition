@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: afe5cfc5f48225241b5d214a9df26ad2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - weatherSphere: {instanceID: 0}
+  - cloudTexture: {instanceID: 0}
+  - blockProfile: {fileID: 11400000, guid: ba6c6452267a9ed43b72bb637fe8452b, type: 2}
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: f5d6310db546a634d9947429df1475ef, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

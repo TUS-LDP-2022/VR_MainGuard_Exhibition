@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73633e41467f60244a85eae1562ec76f, type: 3}
+  m_Name: Big Sky Sunset
+  m_EditorClassIdentifier: 
+  blockStyle: 0
+  win1: 1
+  win2: 0
+  win3: 0
+  win4: 1
+  atmosphereProfile: {fileID: 11400000, guid: 8cc0487e978305c49a20079f78f36ba0, type: 2}
+  skyZenithColor: {r: 0.0139295235, g: 0.011764705, b: 0.08235294, a: 1}
+  skyHorizonColor: {r: 0.54509807, g: 0.18823527, b: 0.304056, a: 1}
+  cloudColor: {r: 0.3301887, g: 0.15419188, b: 0.2019225, a: 1}
+  cloudHighlightColor: {r: 9.524393, g: 2.0633273, b: 0.059911992, a: 1}
+  highAltitudeCloudColor: {r: 2.3286297, g: 0.82495725, b: 0.39750326, a: 1}
+  sunlightColor: {r: 0.6037736, g: 0.31897473, b: 0.24777503, a: 1}
+  moonlightColor: {r: 0.050875295, g: 0.092008516, b: 0.09742078, a: 1}
+  starColor: {r: 3.9999995, g: 3.9999995, b: 3.9999995, a: 0.95379514}
+  ambientLightHorizonColor: {r: 0.52065974, g: 0.36678168, b: 0.32350343, a: 1}
+  ambientLightZenithColor: {r: 0.2784475, g: 0.43995, b: 0.46980897, a: 1}
+  ambientLightMultiplier: 1
+  galaxyIntensity: 0.10809413
+  fogDensity: 1
+  fogColor1: {r: 0, g: 0, b: 0, a: 0.007843138}
+  fogColor2: {r: 0.08106573, g: 0.021543097, b: 0.012885558, a: 0.13725491}
+  fogColor3: {r: 0.16768043, g: 0.03496431, b: 0.042006135, a: 0.5019608}
+  fogColor4: {r: 0.14551412, g: 0.04061429, b: 0.055423163, a: 0.75686276}
+  fogColor5: {r: 0.65482956, g: 0.29527193, b: 0.19692983, a: 1}
+  fogFlareColor: {r: 2.2637253, g: 0.5666386, b: 0.49197024, a: 1}
+  gradientExponent: 0.638
+  atmosphereVariationMin: 0.13
+  atmosphereVariationMax: 0.64
+  atmosphereBias: 0.065
+  sunSize: 1.91
+  sunColor: {r: 10.432951, g: 10.432951, b: 10.432951, a: 1}
+  sunFalloff: 28.3
+  sunFlareColor: {r: 0.4334527, g: 0.37567312, b: 0.34309652, a: 1}
+  moonFalloff: 26.9
+  moonFlareColor: {r: 0.023529412, g: 0.07450981, b: 0.06666667, a: 1}
+  galaxy1Color: {r: 0, g: 0.5019608, b: 1, a: 1}
+  galaxy2Color: {r: 0.11764706, g: 0.45490196, b: 0.078431375, a: 1}
+  galaxy3Color: {r: 0.16470589, g: 0.078431375, b: 0.45490196, a: 1}
+  lightScatteringColor: {r: 0, g: 0, b: 0, a: 0}
+  fogStart1: 2
+  fogStart2: 5
+  fogStart3: 10
+  fogStart4: 30
+  fogHeight: 0.86
+  fogLightFlareIntensity: 1
+  fogLightFlareFalloff: 9.9
+  fogLightFlareSquish: 1
+  cloudMoonColor: {r: 0.04232816, g: 0.06565098, b: 0.07178856, a: 1}
+  cloudSunHighlightFalloff: 19.7
+  cloudMoonHighlightFalloff: 29.2
+  cloudTextureColor: {r: 0.6675392, g: 0.6675392, b: 0.6675392, a: 1}
+  atmosphereVariation: 0
+  skyColor: {r: 0, g: 0, b: 0, a: 0}
+  fogColor: {r: 0, g: 0, b: 0, a: 0}
+  simpleSunColor: {r: 0, g: 0, b: 0, a: 0}
+  simpleCloudColor: {r: 0, g: 0, b: 0, a: 0}
+  moonColor: {r: 0, g: 0, b: 0, a: 0}
+  nightFXAmount: 0
+  baseChance: 1
+  chances:
+  - limitType: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.35
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.45
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.6
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.7
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
